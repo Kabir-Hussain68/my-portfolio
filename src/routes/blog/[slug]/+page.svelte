@@ -46,3 +46,28 @@
     </aside>
   </div>
 </section>
+
+<style>
+
+  .ph {
+    position: relative;
+  }
+  .ph::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: var(--bg);
+    pointer-events: none;
+  }
+
+  :global(.post a) {
+    overflow-wrap: anywhere;
+  }
+  :global(.post .katex-display) {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+</style>

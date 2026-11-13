@@ -1,9 +1,13 @@
 {
-  "name": "john-fahrenhiet",
+  "name": "Kabir-Hussain",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "scripts": { "dev": "vite dev", "build": "vite build", "preview": "vite preview" },
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.6",
     "@sveltejs/kit": "^2.8.0",
@@ -11,5 +15,9 @@
     "svelte": "^5.0.0",
     "vite": "^5.4.0"
   },
-  "dependencies": { "marked": "^12.0.2" }
+  "dependencies": {
+    "katex": "^0.18.10",
+    "marked": "^12.0.2",
+    "marked-katex-extension": "^5.1.13"
+  }
 }

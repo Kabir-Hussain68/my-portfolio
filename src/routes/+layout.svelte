@@ -1,4 +1,5 @@
 <script>
+  import 'katex/dist/katex.min.css';
   import '../app.css';
   import { page } from '$app/stores';
   import { base } from '$app/paths';
